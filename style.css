@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.hire-me-button {
+    text-decoration: none;
+    padding: 5px 20px;
+    background-image: linear-gradient(red, black);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.chanchal {
+    color: orange;
+}
+
+section {
+    display: flex;
+
+}
+
+footer {
+    text-align: center;
+}
+
+.half-width {
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.sec {
+    margin-bottom: 200px;
+}
+
+.bg {
+    background-image: url(photo/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
