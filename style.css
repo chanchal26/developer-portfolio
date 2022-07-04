@@ -19,9 +19,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
-
+    margin-bottom: 150px;
 }
 
 footer {
@@ -34,11 +34,32 @@ footer {
 }
 
 .sec {
-    margin-bottom: 200px;
+    background-image: url(photo/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
 }
 
 .bg {
     background-image: url(photo/top-banner.png);
     background-repeat: no-repeat;
     margin: 0;
+}
+
+.dream-big {
+    background-image: url(photo/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.box {
+    box-shadow: 10px 10px 40px black;
+    width: 40%;
+    margin: 5% 5%;
+    padding: 5px 30px;
+    border-left: 7px solid blueviolet;
+}
+
+#full {
+    border-left: 7px solid tomato;
 }
